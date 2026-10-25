@@ -23,7 +23,7 @@ PACKAGES = [
     {
         "name": "pan-os-upgrade-assurance",
         "github": "PaloAltoNetworks/pan-os-upgrade-assurance",
-        "pypi": "pan-os-upgrade-assurance",
+        "pypi": "panos-upgrade-assurance",
         "aur": "python-pan-os-upgrade-assurance",
     },
     {
