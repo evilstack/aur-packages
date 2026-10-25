@@ -9,10 +9,28 @@ from packaging.version import Version
 # Define the packages you maintain
 PACKAGES = [
     {
-        "name": "catalystcentersdk",
-        "github": "cisco-en-programmability/catalystcentersdk",
-        "pypi": "catalystcentersdk",
-        "aur": "python-catalystcentersdk",
+        "name": "pan-python",
+        "github": "kevinsteves/pan-python",
+        "pypi": "pan-python",
+        "aur": "python-pan-python",
+    },
+    {
+        "name": "pan-os-python",
+        "github": "PaloAltoNetworks/pan-os-python",
+        "pypi": "pan-os-python",
+        "aur": "python-pan-os-python",
+    },
+    {
+        "name": "pan-os-upgrade-assurance",
+        "github": "PaloAltoNetworks/pan-os-upgrade-assurance",
+        "pypi": "pan-os-upgrade-assurance",
+        "aur": "python-pan-os-upgrade-assurance",
+    },
+    {
+        "name": "pan-chainguard",
+        "github": "PaloAltoNetworks/pan-chainguard",
+        "pypi": "pan-chainguard",
+        "aur": "pan-chainguard",
     },
 ]
 
