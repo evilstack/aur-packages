@@ -11,5 +11,8 @@ status of AUR packages I maintain vs upstream sources
 <!-- BEGIN_PACKAGE_TABLE -->
 | Package | GitHub (Source) | PyPI | AUR | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `catalystcentersdk` | `3.2.3.0.4` | `3.2.3.0.4` | `Unknown` | 🟢 Up to Date |
+| `pan-python` | `0.26.0` | `0.26.0` | `0.26.0` | 🟢 Up to Date |
+| `pan-os-python` | `1.13.1` | `1.13.1` | `1.13.1` | 🟢 Up to Date |
+| `pan-os-upgrade-assurance` | `2.1.1` | `Unknown` | `2.1.1` | 🟢 Up to Date |
+| `pan-chainguard` | `0.15.0` | `0.15.0` | `0.15.0` | 🟢 Up to Date |
 <!-- END_PACKAGE_TABLE -->
