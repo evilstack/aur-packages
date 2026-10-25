@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2026 evilstack
+#
+# SPDX-License-Identifier: MIT
+
+name: Track Package Versions
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs daily at 8:00 AM UTC
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      contents: read
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install requests packaging
+
+      - name: Run Version Checker
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python scripts/check_versions.py
+
+      - name: Commit and Push README Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update package status dashboard"
+          file_pattern: README.md
