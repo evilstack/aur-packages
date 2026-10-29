@@ -35,6 +35,7 @@ PACKAGES = [
 ]
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
+NTFY_URL = os.environ.get("NTFY_URL")
 
 def get_github_version(repo):
     url = f"https://api.github.com/repos/{repo}/releases/latest"
@@ -69,7 +70,7 @@ def get_aur_version(aur_name):
 
 def send_notification(message):
     if NTFY_TOPIC:
-        requests.post(f"https://ntfy.sh/{NTFY_TOPIC}", data=message.encode("utf-8"), headers={"Title": "AUR Maintainer Alert"})
+        requests.post(f"https://{NTFY_URL}/{NTFY_TOPIC}", data=message.encode("utf-8"), headers={"Title": "AUR Maintainer Alert"})
 
 def main():
     table_rows = []
