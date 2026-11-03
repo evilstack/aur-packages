@@ -14,5 +14,5 @@ status of AUR packages I maintain vs upstream sources
 | `pan-python` | `0.26.0` | `0.26.0` | `0.26.0` | 🟢 Up to Date |
 | `pan-os-python` | `1.13.1` | `1.13.1` | `1.13.1` | 🟢 Up to Date |
 | `pan-os-upgrade-assurance` | `2.1.1` | `2.1.1` | `2.1.1` | 🟢 Up to Date |
-| `pan-chainguard` | `0.15.0` | `0.15.0` | `0.15.0` | 🟢 Up to Date |
+| `pan-chainguard` | `0.16.0` | `0.16.0` | `0.15.0` | 🟠 AUR Update Needed |
 <!-- END_PACKAGE_TABLE -->
