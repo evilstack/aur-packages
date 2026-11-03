@@ -31,6 +31,7 @@ jobs:
       - name: Run Version Checker
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_URL: ${{ secrets.NTFY_URL }}
         run: python scripts/check_versions.py
 
       - name: Commit and Push README Changes
