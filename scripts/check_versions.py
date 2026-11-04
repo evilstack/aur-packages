@@ -32,6 +32,12 @@ PACKAGES = [
         "pypi": "pan-chainguard",
         "aur": "pan-chainguard",
     },
+    {
+        "name": "ciscoisesdk",
+        "github": "CiscoISE/ciscoisesdk",
+        "pypi": "ciscoisesdk",
+        "aur": "python-ciscoisesdk",
+    },
 ]
 
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
