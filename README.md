@@ -11,9 +11,9 @@ status of AUR packages I maintain vs upstream sources
 <!-- BEGIN_PACKAGE_TABLE -->
 | Package | GitHub (Source) | PyPI | AUR | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| `pan-python` | `Unknown` | `0.26.0` | `0.26.0` | 🟢 Up to Date |
-| `pan-os-python` | `Unknown` | `1.13.1` | `1.13.1` | 🟢 Up to Date |
-| `pan-os-upgrade-assurance` | `Unknown` | `2.1.1` | `2.1.1` | 🟢 Up to Date |
-| `pan-chainguard` | `Unknown` | `0.16.0` | `0.16.0` | 🟢 Up to Date |
-| `ciscoisesdk` | `Unknown` | `2.4.7` | `2.4.7` | 🟢 Up to Date |
+| `pan-python` | `0.26.0` | `0.26.0` | `0.26.0` | 🟢 Up to Date |
+| `pan-os-python` | `1.13.1` | `1.13.1` | `1.13.1` | 🟢 Up to Date |
+| `pan-os-upgrade-assurance` | `2.1.1` | `2.1.1` | `2.1.1` | 🟢 Up to Date |
+| `pan-chainguard` | `0.16.0` | `0.16.0` | `0.16.0` | 🟢 Up to Date |
+| `ciscoisesdk` | `2.4.7` | `2.4.7` | `2.4.7` | 🟢 Up to Date |
 <!-- END_PACKAGE_TABLE -->
